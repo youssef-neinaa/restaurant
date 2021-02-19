@@ -9,8 +9,8 @@ $(() => {
     }, 500);
 
     // navigation scroll to sections
-    $('.nav-item').on('click', function () {
-
+    $('.nav-item').on('click', function (e) {
+        e.preventDefault();
         $(this).removeClass('active').addClass("active").siblings('li').removeClass('active');
         let $scrollTo = $($(this).find('a').data('section'));
 
