@@ -16,8 +16,9 @@ $(() => {
     });
 
     // logo click scroll to 0
-    $('#logo,#to-top').on('click', function () {
-
+    $('#logo,#to-top').on('click', function (e) {
+        e.preventDefault();
+        
         $('html,body').animate({
             scrollTop: 0
         }, 500);
