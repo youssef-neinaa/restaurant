@@ -2,9 +2,9 @@
   // start global style
   margin: 0;
 
-  $main-color: #ee5253;
+  $main-color: #474787;
   $second-color: #2d3436;
-
+  $active-link:#e75051;
   font-family: "Lato", sans-serif;
 
   .section {
@@ -95,7 +95,7 @@
         &.active {
           color: #fff;
           a {
-            background: #49467b;
+            background: $active-link;
             color: inherit;
             border-radius: 30px;
             &:hover {
