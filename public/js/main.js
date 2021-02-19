@@ -52,4 +52,11 @@ $(() => {
         checkWindowOffset();
     });
 
+    // use slim scroll
+    // $('html').niceScroll({
+    //     cursorcolor:"aquamarine",
+    //     cursorwidth:"8px",
+    //     zindex: "9998"
+    // })
+
 })
