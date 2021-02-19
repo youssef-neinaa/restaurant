@@ -16,7 +16,7 @@
 
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-          <li class="nav-item mb-2 mb-lg-0 active">
+          <li class="nav-item mb-2 mb-lg-0 active home">
             <a href="#" data-section=".content" class="nav-link">
               Home
             </a>

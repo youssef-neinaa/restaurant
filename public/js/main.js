@@ -21,6 +21,9 @@ $(() => {
         $('html,body').animate({
             scrollTop: 0
         }, 500);
+
+        // set active link to home link
+        $('.nav-item.home').click();
     });
 
     // check if the offset top >800 to show button scroll top
