@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <div class="loading">
-      <orbit-spinner :animation-duration="1200" :size="55" color="#ff1d5e" />
+      <swapping-squares-spinner
+        :animation-duration="1000"
+        :size="65"
+        color="#474787"
+      />
     </div>
     <navigation></navigation>
     <router-view />
@@ -12,14 +16,14 @@
 <script>
 import navigation from './components/_layout/nav'
 import cFooter from './components/_layout/footer'
-import { OrbitSpinner } from 'epic-spinners'
+import { SwappingSquaresSpinner } from 'epic-spinners'
 
 export default {
   name: 'App',
   components: {
     navigation,
     cFooter,
-    OrbitSpinner,
+    SwappingSquaresSpinner,
   },
 }
 </script>

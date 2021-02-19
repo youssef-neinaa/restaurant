@@ -18,7 +18,7 @@ $(() => {
 
         $('html,body').animate({
             scrollTop: parseInt($scrollTo.offset().top - 50),
-        }, 500);
+        }, 700);
 
     });
 
