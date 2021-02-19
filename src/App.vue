@@ -1,22 +1,27 @@
 <template>
   <div id="app">
+    <div class="loading">
+      <orbit-spinner :animation-duration="1200" :size="55" color="#ff1d5e" />
+    </div>
     <navigation></navigation>
     <router-view />
     <c-Footer></c-Footer>
   </div>
 </template>
 
-
 <script>
-import navigation from "./components/_layout/nav";
-import cFooter from "./components/_layout/footer";
+import navigation from './components/_layout/nav'
+import cFooter from './components/_layout/footer'
+import { OrbitSpinner } from 'epic-spinners'
+
 export default {
-  name: "App",
+  name: 'App',
   components: {
     navigation,
-    cFooter
-  }
-};
+    cFooter,
+    OrbitSpinner,
+  },
+}
 </script>
 
 <style>

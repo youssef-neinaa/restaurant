@@ -1,7 +1,14 @@
 $(() => {
 
-    // navigation scroll to sections
+    // hide loading page
+    setTimeout(() => {
+        $('.loading').fadeOut(700);
+        $('body').css({
+            overflow:'visible'
+        })
+    }, 500);
 
+    // navigation scroll to sections
     $('.nav-item').on('click', function () {
 
         $(this).removeClass('active').addClass("active").siblings('li').removeClass('active');

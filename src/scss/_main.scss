@@ -47,6 +47,21 @@
 
   // end global style
 
+  // start loading
+  .loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  // end loading
+
   //   navigation bar style
   nav {
     background: $main-color;
@@ -339,7 +354,7 @@
       font-size: 20px;
       transition: ease 0.3s;
     }
-    
+
     &:hover {
       #btn-scroll {
         top: 0;
